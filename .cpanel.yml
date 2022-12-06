@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/simpleco/public-html/
+    - export DEPLOYPATH=/home/simpleco/public_html/
     - /bin/cp * $DEPLOYPATH

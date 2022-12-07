@@ -12,7 +12,7 @@ $_SESSION['success'] = "";
 
 // DBMS connection code -> hostname,
 // username, password, database name
-$db = mysqli_connect('localhost', 'root', '', 'registration');
+$db = mysqli_connect('localhost', 'simpleco_sdrshnptl', 'W2S[^U%k{k@E', 'registration');
 
 // Registration code
 if (isset($_POST['reg_user'])) {
